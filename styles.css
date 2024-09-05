@@ -1,0 +1,114 @@
+body{
+    font-family: 'Epilogue', Arial, Helvetica, sans-serif;
+    background-color: rgb(239, 237, 237);
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 4em;
+    font-weight:600;
+    color: gray;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    color: black;
+}
+
+#title{
+    font-weight: 700;
+    font-size:xx-large;
+    color: black;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding:15px;
+    top: 9%;
+    border-radius: 6px;
+}
+
+.dropdown-menu li{
+    margin: 15px;
+    color: gray;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.features-dropdown{
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+/* if you want to have an emphasis on items while hovering: */
+/* .dropdown-menu li:hover {
+    background-color: #555;
+} */
+
+.top-buttons{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: white;
+    font-family: 'Epilogue', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(239, 237, 237);
+}
+
+.type-b{
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.body-container{
+    display: flex;
+}
+
+.main-content{
+    flex: 1;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.text-content{
+    font-weight: bold;
+    font-size: 59px;
+    padding-top: 50px;
+}
+
+.description{
+    width: 400px;
+    color: gray;
+    line-height: 25px;
+}
+
+.learn-button{
+    background: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-logo{
+    flex: 1;
+    margin-right: 5px;
+    width: 80%;
+}
+
